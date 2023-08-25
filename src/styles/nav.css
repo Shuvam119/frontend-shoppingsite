@@ -1,0 +1,30 @@
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, green, olive);
+    padding: 15px;
+}
+
+nav h1 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
